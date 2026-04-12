@@ -55,6 +55,11 @@ resource "cloudflare_workers_script" "scheduled_teardown" {
   }
 
   plain_text_binding {
+    name = "BASE_DOMAIN"
+    text = var.base_domain
+  }
+
+  plain_text_binding {
     name = "ADMIN_EMAIL"
     text = var.admin_email
   }
@@ -139,6 +144,7 @@ resource "cloudflare_pages_project" "control_plane" {
         GITHUB_OWNER                 = var.github_owner
         GITHUB_REPO                  = var.github_repo
         DOMAIN                       = var.domain
+        BASE_DOMAIN                  = var.base_domain
         BASE_DOMAIN                  = var.base_domain
         ADMIN_EMAIL                  = var.admin_email
         USER_EMAIL                   = var.user_email
