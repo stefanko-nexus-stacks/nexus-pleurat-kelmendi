@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.45.3](https://github.com/stefanko-nexus-stacks/nexus-pleurat-kelmendi/compare/v0.45.2...v0.45.3) (2026-04-12)
+
+
+### 🔧 Maintenance
+
+* Prepare for multi-user deployment (flat subdomains) ([4a41b2a](https://github.com/stefanko-nexus-stacks/nexus-pleurat-kelmendi/commit/4a41b2aac83b3a940cbecbedd3dfa0c14f4fb35e))
+* Prepare for multi-user deployment (flat subdomains) ([d7f42b8](https://github.com/stefanko-nexus-stacks/nexus-pleurat-kelmendi/commit/d7f42b8186e943cfe37f2665c8b9ed9af1d3039c))
+* upgrade template to v0.45.2 ([8561c8b](https://github.com/stefanko-nexus-stacks/nexus-pleurat-kelmendi/commit/8561c8b54046ba69785a1466360fac4aeeab11ac))
+
 ## [0.45.2](https://github.com/stefanko-ch/Nexus-Stack/compare/v0.45.1...v0.45.2) (2026-04-12)
 
 
